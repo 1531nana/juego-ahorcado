@@ -193,7 +193,10 @@ main {
     margin: 0 0.2em;
     vertical-align: bottom;
 }
-
+.palabra span.espacio {
+    display: inline;
+    border-color: white;
+}
 .alfabeto {
     display: flex;
     flex-wrap: wrap;
@@ -447,4 +450,28 @@ footer {
         margin: 1.5px;
     }
 
+}
+#btn-agregar-palabra, #pantalla-completa {
+    display: none;
+}
+strong {
+    font-weight: bold;
+}
+#mensaje-reflexion {
+    display: none;
+    border: 2px solid blue;
+    background: #0000ff12;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1em;
+}
+.title-game {
+    margin: 100px 50px;
 }

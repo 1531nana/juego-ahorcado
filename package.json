@@ -1,0 +1,19 @@
+{
+  "name": "juego-del-ahorcado",
+  "version": "1.0.0",
+  "description": "<p align=\"center\" >\r      <img width=\"619.834\" heigth=\"300\" src=\"https://user-images.githubusercontent.com/110739445/188439874-c00c96f1-6d98-43ef-a698-a59aaab02a16.png\">\r      <img width=\"137.383\" heigth=\"300\" src=\"https://user-images.githubusercontent.com/110739445/188439884-27a44f7e-d971-472d-a293-e438d54b11b3.png\">\r </p>",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/David-Blanc/Juego-del-Ahorcado.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/David-Blanc/Juego-del-Ahorcado/issues"
+  },
+  "homepage": "https://github.com/David-Blanc/Juego-del-Ahorcado#readme"
+}
