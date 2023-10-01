@@ -72,35 +72,35 @@ const diccionario = [
   "HORNO MICROONDAS",
   "CELULAR",
   "MAPAS E INDICACIONES",
-  "CORREO ELECTRONICO",
+  "MENSAJE DE TEXTO",
   "DIAGNOSTICO MEDICO",
   "PUBLICIDAD",
 ];
 const pistas = {
-  "HORNO MICROONDAS": "Se utiliza para calentar alimentos rápidamente.",
+  "HORNO MICROONDAS": " Se utiliza para calentar alimentos rápidamente.",
   CELULAR:
-    "Casi todos tienen uno en su bolsillo, ¡y es muy útil para comunicarse!",
+    " Casi todos tienen uno en su bolsillo, ¡y es muy útil para comunicarse!",
   "MAPAS E INDICACIONES":
-    "Cuando estás perdido, esto te ayuda a encontrar tu camino.",
-  "CORREO ELECTRONICO":
-    "La forma en que te comunicas por escrito con amigos y familiares.",
+    " Cuando estás perdido, esto te ayuda a encontrar tu camino.",
+  "MENSAJE DE TEXTO":
+    " La forma en que te comunicas por escrito con amigos y familiares.",
   "DIAGNOSTICO MEDICO":
-    "Ayuda a los médicos a identificar enfermedades y tratar pacientes.",
-  PUBLICIDAD: "La encuentras en la radio, la televisión y en línea.",
+    " Ayuda a los médicos a identificar enfermedades y tratar pacientes.",
+  PUBLICIDAD: " La encuentras en la radio, la televisión y en línea.",
 };
 const mensajesReflexion = {
   "HORNO MICROONDAS":
-    "Así como este objeto sigue tus instrucciones para calentar la comida, la IA también responde a tus comandos y preguntas para brindarte información o realizar tareas específicas.",
+    " Así como este objeto sigue tus instrucciones para calentar la comida, la Inteligencia Artificial también responde a tus comandos y preguntas para brindarte información o realizar tareas específicas.",
   CELULAR:
-    "Así como los teléfonos celulares almacenan información de contactos y realizan llamadas según las instrucciones que le demos, la IA utiliza bases de datos y procesamiento para responder a las preguntas de las personas.",
+    " Así como los teléfonos celulares almacenan información de contactos y realizan llamadas según las instrucciones que le demos, la Inteligencia Artificial utiliza bases de datos y procesamiento para responder a las preguntas de las personas.",
   "MAPAS E INDICACIONES":
-    "Cuando usamos mapas e indicaciones, estamos creando una especie de 'mapa mental' en nuestra mente para llegar a un lugar. De manera similar, la IA utiliza mapas y algoritmos para navegar y encontrar rutas.",
-  "CORREO ELECTRONICO":
-    "Al redactar correos electrónicos, a menudo exploramos diferentes palabras y frases para expresar nuestros pensamientos. De manera similar, la IA puede sugerir palabras y respuestas en función de lo que estamos escribiendo.",
+    " Cuando usamos mapas e indicaciones, estamos creando una especie de 'mapa mental' en nuestra mente para llegar a un lugar. De manera similar, la Inteligencia Artificial utiliza mapas y algoritmos para navegar y encontrar rutas.",
+  "MENSAJE DE TEXTO":
+    " Al redactar mensajes de textos o correos electrónicos, a menudo exploramos diferentes palabras y frases para expresar nuestros pensamientos. De manera similar, la Inteligencia Artificial puede sugerir palabras y respuestas en función de lo que estamos escribiendo.",
   "DIAGNOSTICO MEDICO":
-    "Los diagnósticos médicos a menudo se basan en la interpretación de síntomas y datos, similar a cómo la <strong>inteligencia artificial</strong> (IA) puede analizar grandes conjuntos de datos para identificar patrones y realizar diagnósticos.",
+    " Los diagnósticos médicos a menudo se basan en la interpretación de síntomas y datos, similar a cómo la Inteligencia Artificial puede analizar grandes conjuntos de datos para identificar patrones y realizar diagnósticos.",
   PUBLICIDAD:
-    "La publicidad en la vida cotidiana utiliza estrategias para atraer la atención de las personas, de manera similar a cómo la IA utiliza datos y análisis para personalizar anuncios y contenido para los usuarios.",
+    " La publicidad en la vida cotidiana utiliza estrategias para atraer la atención de las personas, de manera similar a cómo la Inteligencia Artificial utiliza datos y análisis para personalizar anuncios y contenido para los usuarios.",
 };
 const tamdiccionario = diccionario.length;
 
@@ -160,8 +160,10 @@ function nuevoJuego() {
       ubicPalabra.appendChild(span);
     }
   }
+  document.getElementById("mensaje-reflexion").style.cssText = "display: none;";
+  document.getElementById("pista").style.cssText = "display: flex;";
   document.getElementById("pista").innerHTML =
-    "<strong>Pista: </strong>" + pista;
+    "<strong>Pista: </strong> " + pista;
   juego.palabraAdivinada = palabra.replace(/ /g, "");
 }
 let path = document.querySelector("path");
