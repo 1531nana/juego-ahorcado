@@ -72,7 +72,7 @@ const diccionario = [
   "HORNO MICROONDAS",
   "CELULAR",
   "MAPAS E INDICACIONES",
-  "CORREOS ELECTRONICOS",
+  "CORREO ELECTRONICO",
   "DIAGNOSTICO MEDICO",
   "PUBLICIDAD",
 ];
@@ -82,7 +82,7 @@ const pistas = {
     "Casi todos tienen uno en su bolsillo, ¡y es muy útil para comunicarse!",
   "MAPAS E INDICACIONES":
     "Cuando estás perdido, esto te ayuda a encontrar tu camino.",
-  "CORREOS ELECTRONICOS":
+  "CORREO ELECTRONICO":
     "La forma en que te comunicas por escrito con amigos y familiares.",
   "DIAGNOSTICO MEDICO":
     "Ayuda a los médicos a identificar enfermedades y tratar pacientes.",
